@@ -1,0 +1,51 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 62px;
+  width: 403px;
+}
+
+.header-afbeelding-box {
+  display: flex;
+  justify-content: flex-start;
+  // align-items: center;
+  height: 15px;
+  width: 403px;
+  margin-bottom: 8px;
+  // background-color: red;
+}
+
+.header-afbeelding {
+  color: var(--darkishGray);
+  font-family: Inter;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 13px;
+}
+
+.rectangle-copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39px;
+  width: 146px;
+  background-color: var(--lightGray);
+}
+
+.camera-position {
+  display: flex;
+  height: 13px;
+  width: 12px;
+  margin: 13px 16px 13px 16px;
+}
+
+.padding-group-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 86px;
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-bottom: 9px;
+}

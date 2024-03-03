@@ -1,0 +1,83 @@
+.newsitem {
+  display: flex;
+  flex-direction: column;
+  height: 217px;
+  width: 285px;
+  background-color: var(--white);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.mask {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  width: 285px;
+  background-color: var(--transparentBlack20);
+}
+
+.date {
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  color: var(--white);
+  font-family: Inter;
+  font-size: 8px;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 10px;
+}
+
+.tech {
+  position: absolute;
+  top: 50px;
+  right: 16px;
+  color: var(--white);
+  font-family: Inter;
+  font-size: 8px;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 10px;
+}
+
+.bitmap {
+  height: 72px;
+  width: 285px;
+}
+
+.group-17 {
+  display: flex;
+  flex-direction: column;
+  height: 113px;
+  width: 253px;
+  margin: 16px;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  height: 29px;
+  width: 253px;
+  color: var(--darkGray);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.lorem-ipsum-dolor-si {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 76px;
+  width: 253px;
+  color: var(--mediumGray);
+  font-family: Inter;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 19px;
+  padding-top: 10px;
+}

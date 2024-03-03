@@ -1,0 +1,26 @@
+.padding-group-2 {
+  display: flex;
+  height: 20px;
+  width: 86px;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.customButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 86px;
+  border-radius: 10px;
+  background-color: var(--greyish);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 11px;
+}

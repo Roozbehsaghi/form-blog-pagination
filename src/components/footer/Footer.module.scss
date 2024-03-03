@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  height: 32px;
+  width: 1440px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkGray);
+}
+
+.group-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 207px;
+  color: var(--white);
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 13px;
+}

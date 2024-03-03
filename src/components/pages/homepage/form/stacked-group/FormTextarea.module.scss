@@ -1,0 +1,28 @@
+.text-area-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 237px;
+  width: 403px;
+}
+
+.bericht {
+  display: flex;
+  height: 15px;
+  width: 403px;
+  color: var(--darkerGray);
+  font-family: Inter;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 13px;
+}
+
+.rectangle-copy-2 {
+  display: flex;
+  height: 214px;
+  width: 403px;
+  background-color: var(--lightGray);
+  border: none;
+  margin-top: 8px;
+}

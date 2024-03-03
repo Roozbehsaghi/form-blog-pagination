@@ -1,0 +1,23 @@
+.stacked-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 458px;
+  width: 594px;
+  background-color: var(--white);
+  overflow-y: auto; /* Add vertical scrollbar when content exceeds height */
+
+  .box:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 217px;
+  width: 285px;
+  padding: 4px;
+}

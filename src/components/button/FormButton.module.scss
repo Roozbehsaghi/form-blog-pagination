@@ -1,0 +1,16 @@
+.background {
+  display: flex;
+  height: 39px;
+  width: 202px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--deepOrange);
+  color: var(--white);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 15px;
+  border: none;
+}

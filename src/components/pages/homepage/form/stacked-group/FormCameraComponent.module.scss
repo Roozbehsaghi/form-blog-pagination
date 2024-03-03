@@ -1,0 +1,30 @@
+.cameraContainer {
+  position: relative;
+}
+
+.camera {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  color: var(--midToneGray);
+  font-family: "Font Awesome 6 Pro";
+  letter-spacing: 0;
+  line-height: 13px;
+  cursor: pointer;
+
+  button {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    bottom: 175px;
+    right: 175px;
+    color: var(--midToneGray);
+    border: none;
+    background-color: #fafafa;
+  }
+}

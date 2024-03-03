@@ -1,0 +1,33 @@
+.stacked-group-copy {
+  position: relative; /* Set position to relative for absolute positioning of children */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 507px;
+  width: 1116px;
+  margin: 64px 162px 64px 162px;
+  background-color: var(--lightGray);
+  padding-bottom: 24px;
+
+  .pagination {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+}
+
+.box {
+  display: flex;
+  height: 217px;
+  width: 261px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}

@@ -1,0 +1,75 @@
+.newsitem {
+  display: flex;
+  flex-direction: column;
+  height: 217px;
+  width: 261px;
+  box-shadow: 0 0 10px var(--transparentBlack20);
+}
+
+.mask {
+  position: relative;
+  height: 72px;
+  width: 261px;
+  background-color: var(--transparentBlack20);
+}
+
+.tech,
+.date {
+  position: absolute;
+  top: 50px;
+  color: var(--white);
+  font-family: Inter;
+  font-size: 8px;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 10px;
+}
+
+.tech {
+  right: 16px;
+}
+
+.date {
+  left: 16px;
+}
+
+.bitmap {
+  height: 72px;
+  width: 261px;
+}
+
+.group-17 {
+  display: flex;
+  flex-direction: column;
+  height: 113px;
+  width: 253px;
+  margin: 16px;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  height: 29px;
+  width: 253px;
+  color: var(--darkGray);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.lorem-ipsum-dolor-si {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 76px;
+  width: 230px;
+  color: var(--mediumGray);
+  font-family: Inter;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 19px;
+  padding-top: 10px;
+}

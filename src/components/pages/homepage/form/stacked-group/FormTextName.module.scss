@@ -1,0 +1,48 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 62px;
+  width: 403px;
+}
+
+.berichtnaam {
+  display: flex;
+  justify-content: flex-start;
+  height: 15px;
+  width: 403px;
+  color: var(--darkerGray);
+  font-family: Inter;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 13px;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39px;
+  width: 403px;
+  background-color: var(--lightGray);
+  margin-top: 8px;
+
+  input::placeholder {
+    color: var(--lighterGray);
+  }
+}
+
+.geen-titel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 15px;
+  width: 371px;
+  color: var(--black);
+  background-color: var(--lightGray);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 15px;
+  border: none;
+}

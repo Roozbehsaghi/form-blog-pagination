@@ -1,0 +1,23 @@
+.padding-group-2 {
+  display: flex;
+  height: 39px;
+  width: 158px;
+  align-items: center;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39px;
+  width: 158px;
+  border-radius: 20px;
+  background-color: var(--deepOrange);
+  color: var(--white);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 15px;
+  border: none;
+}

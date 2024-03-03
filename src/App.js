@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from "./components/pages/homepage/HomePage";
+import BlogPage from "./components/pages/blogpage/BlogPage";
+import { Routes, Route } from "react-router-dom";
+import "./components/colors/colors.module.scss";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+// Route to spesific page
+const pathToHomePage = "/";
+const pathToBlogPage = "/blog-page";
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <QueryClientProvider client={queryClient}>
+        <Routes>
+          <Route
+            path={pathToHomePage}
+            element={<HomePage pathToBlogPage={pathToBlogPage} />}
+          />
+          <Route
+            path={pathToBlogPage}
+            element={<BlogPage pathToHomePage={pathToHomePage} />}
+          />
+        </Routes>
+      </QueryClientProvider>
     </div>
   );
 }
